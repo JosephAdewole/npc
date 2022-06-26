@@ -27,6 +27,7 @@ class HomeController extends Controller
      */
     public function index()
     {
+        //get all data
         $states = State::all();
         $lgas = Lga::all();
         $wards = Ward::all();
